@@ -1,0 +1,223 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #E8E1D9;
+  font-family: 'Lora', serif;
+  font-size:20px;
+}
+
+h1{
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size:60px;
+  color: DeepSkyBlue;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: DeepSkyBlue;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+a:hover{
+  color: DeepSkyBlue;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: DeepSkyBlue;
+}
+
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 40%;
+  margin-bottom: 0;
+  margin: 30px auto;
+}
+
+p{
+    line-height: 2;
+        margin-bottom: 0;
+        margin-top: 0;
+}
+.top{
+  background-color: #E8E1D9;
+  position: relative;
+  padding-top: 0;
+}
+.proimg{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+
+}
+.s1{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 30px auto 30px auto;
+  text-align: left;
+
+}
+.s2{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.bottom{
+background-color: #BFA2DB;
+padding: 10px 0 20px;
+}
+
+.btn{
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Lora;
+   font-size: 18px;
+   margin-bottom: 50px;
+   font-weight: 400;
+   padding: 14px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 20px;
+}
+
+.boxmodel {
+  background-image:
+    radial-gradient(#F3F0D7 10%, #CEE5D0 45%, #B8DFD8 70%);
+  padding-top: 0;
+  width: 92%;
+  padding: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+}
+
+.image-row {
+  width: 50%;
+  margin-left: 0;
+  text-align: left;
+}
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+div.img {
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid #105652;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+}
+
+.img {
+  opacity: 0.3;
+}
+
+.img:hover {
+  opacity: 1.0;
+}
+
+div.img img {
+  display: inline;
+  border: 1px solid #105652;
+}
+
+
+.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+.topnav {
+  background-color: #105652;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #CAB8FF;
+  color: #105652;
+}
+
+.topnav a.active {
+  background-color: #CAB8FF;
+  color: white;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.img:hover {
+  width: 150px;
+  height: 150px;
+  transform: rotate(20deg);
+}
